@@ -27,6 +27,7 @@ public class HomeServlet extends HttpServlet {
        String logout = "You have successfully logged out!";
        request.setAttribute("prompt", logout);
        getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request,response); 
+       
     }
 
 }
